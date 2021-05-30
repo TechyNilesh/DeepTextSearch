@@ -21,7 +21,7 @@
 This library is compatible with both *windows* and *Linux system* you can just use **PIP command** to install this library on your system:
 
 ```shell
-pip install DeepImageSearch
+pip install DeepTextSearch
 ```
 
 ## How To Use?
