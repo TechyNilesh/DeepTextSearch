@@ -1,7 +1,7 @@
 # Deep Text Search - AI-Based Text Search & Recommendation System
 <p align="center"><img src="https://github.com/TechyNilesh/DeepTextSearch/blob/main/logo/DeepTextSearch%20Logo-2.png?raw=true" alt="Brain+Machine" height="218" width="350"></p>
 
-**Deep Text Search** is an AI-powered multilingual **text search and recommendation engine **with state-of-the-art transformer-based **multilingual text embedding (50+ languages)**.
+**Deep Text Search** is an AI-powered multilingual **text search and recommendation engine** with state-of-the-art transformer-based **multilingual text embedding (50+ languages)**.
 
 ![Generic badge](https://img.shields.io/badge/DeepTextSerach-v1-orange.svg) ![Generic badge](https://img.shields.io/badge/Artificial_Intelligence-Advance-green.svg) ![Generic badge](https://img.shields.io/badge/Python-v3-blue.svg) ![Generic badge](https://img.shields.io/badge/pip-v3-red.svg)  ![Generic badge](https://img.shields.io/badge/SentenceTransformer-v1-orange.svg)
 
@@ -14,7 +14,7 @@
 - High Accurate Text Recommendation and Search Output Result.
 - Best for Implementing on python based web application or APIs.
 - Best implementation for College students and freshers for project creation.
-- Applications are Text based E-commerce recommendation, Social media post and other text-based platforms that want to implement text recommendation and search.
+- Applications are Text based News, Social media post, E-commerce Product recommendation and other text-based platforms that want to implement text recommendation and search.
 
 ## Installation
 
