@@ -38,26 +38,33 @@ from DeepTextSearch import LoadData,TextEmbedder,TextSearch
 
 #### 2. Loading the Images Data
 
-For loading the images data we need to use the **LoadData** object, from there we can import text from the CSV file.
+For loading the images data we need to use the **LoadData** object, from there we can import text data as python list object from the CSV/Text  file.
 
 ```python
 # Load data from CSV file
 data = LoadData().from_csv("../your_file_name.csv")
+# Load data from Text file
+data = LoadData().from_text("../your_file_name.txt")
 ```
 ### 3. Embedding and Saving The File in Local Folder
 
 For Embedding we are using state of the art multilingual Sentence Transformer Embedding, We also store the information of the Embedding for further use on the local path **[embedding-data/]** folder.
 
+You can also use the **load embedding()** method in a **TextEmbedder()** class to load saved embedding data.
+
 ```python
-# For Serching we need to Embed Data first, After Embedding all the data stored on the local path
+# To use Serching, we must first embed data. After that, we must save all of the data on the local path.
 TextEmbedder().embed(corpus_list=data)
+
+# Loading Embedding data
+corpus_embedding = TextEmbedder().load_embedding()
 ```
 ### 3. Searching
 
-For Searching and Recommendation, we are Comparing Cosian Similarity and then corpus are arranged there similarity score:
+We compare Cosian Similarity for searching and recommending, and then the corpus is sorted according to the similarity score:
 
 ```python
-# for searching, you need to give the query_text  and the number of the similar text you want
+# You must include the query text and the quantity of comparable texts you want to search for.
 TextSearch().find_similar(query_text="What are the key features of Node.js?",top_n=10)
 ```
 
@@ -68,9 +75,9 @@ TextSearch().find_similar(query_text="What are the key features of Node.js?",top
 from DeepTextSearch import LoadData,TextEmbedder,TextSearch
 # Load data from CSV file
 data = LoadData().from_csv("../your_file_name.csv")
-# For Serching we need to Embed Data first, After Embedding all the data stored on the local path
+# To use Serching, we must first embed data. After that, we must save all of the data on the local path
 TextEmbedder().embed(corpus_list=data)
-# for searching, you need to give the query_text  and the number of the similar text you want
+# You must include the query text and the quantity of comparable texts you want to search for
 TextSearch().find_similar(query_text="What are the key features of Node.js?",top_n=10)
 ```
 
