@@ -1,4 +1,4 @@
-# Deep Text Search - AI-Based Text Search & Recommendation Engine
+# Deep Text Search - AI-Based Text Search & Recommendation System
 <p align="center"><img src="https://github.com/TechyNilesh/DeepTextSearch/blob/main/logo/DeepTextSearch%20Logo-2.png?raw=true" alt="Brain+Machine" height="218" width="350"></p>
 
 **Deep Text Search** is an AI-powered multilingual **text search and recommendation engine **with state-of-the-art transformer-based **multilingual text embedding (50+ languages)**.
