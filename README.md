@@ -1,4 +1,4 @@
-# Deep Text Search - AI-Based Text Search & Recommendation System
+# Deep Text Search - AI Based Text Search & Recommendation System
 <p align="center"><img src="https://github.com/TechyNilesh/DeepTextSearch/blob/main/logo/DeepTextSearch%20Logo-2.png?raw=true" alt="Brain+Machine" height="218" width="350"></p>
 
 **Deep Text Search** is an AI-powered multilingual **text search and recommendation engine** with state-of-the-art transformer-based **multilingual text embedding (50+ languages)**.
@@ -14,7 +14,7 @@
 - High Accurate Text Recommendation and Search Output Result.
 - Best for Implementing on python based web application or APIs.
 - Best implementation for College students and freshers for project creation.
-- Applications are Text based News, Social media post, E-commerce Product recommendation and other text-based platforms that want to implement text recommendation and search.
+- Applications are Text-based News, Social media post, E-commerce Product recommendation and other text-based platforms that want to implement text recommendation and search.
 
 ## Installation
 
@@ -46,7 +46,7 @@ data = LoadData().from_csv("../your_file_name.csv")
 ```
 ### 3. Embedding and Saving The File in Local Folder
 
-For Embedding we are using state of the art multilangual Sentence Transformer Embedding,We also store the information of the Embedding for fruther use on the local path **[embedding-data/]** folder.
+For Embedding we are using state of the art multilingual Sentence Transformer Embedding, We also store the information of the Embedding for further use on the local path **[embedding-data/]** folder.
 
 ```python
 # For Serching we need to Embed Data first, After Embedding all the data stored on the local path
@@ -54,7 +54,7 @@ TextEmbedder().embed(corpus_list=data)
 ```
 ### 3. Searching
 
-For Searching and Recommendation we are Comparing Cosian Similarity and then corpus are arrenged there similarity score:
+For Searching and Recommendation, we are Comparing Cosian Similarity and then corpus are arranged there similarity score:
 
 ```python
 # for searching, you need to give the query_text  and the number of the similar text you want
