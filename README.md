@@ -28,7 +28,7 @@ pip install DeepTextSearch
 
 We have provided the **Demo** folder under the *GitHub repository*, you can find the example in both **.py** and **.ipynb**  file. Following are the ideal flow of the code:
 
-#### 1. Importing the Important Classes
+### 1. Importing the Important Classes
 There are three important classes you need to load **LoadData** - for data loading, **TextEmbedder** - for embedding the text  to data, **TextSearch** - For searching the text.
 
 ```python
@@ -36,7 +36,7 @@ There are three important classes you need to load **LoadData** - for data loadi
 from DeepTextSearch import LoadData,TextEmbedder,TextSearch
 ```
 
-#### 2. Loading the Texts Data
+### 2. Loading the Texts Data
 
 For loading the Texts data we need to use the **LoadData** object, from there we can import text data as python list object from the CSV/Text  file.
 
