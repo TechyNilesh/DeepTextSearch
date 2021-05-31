@@ -36,9 +36,9 @@ There are three important classes you need to load **LoadData** - for data loadi
 from DeepTextSearch import LoadData,TextEmbedder,TextSearch
 ```
 
-#### 2. Loading the Images Data
+#### 2. Loading the Texts Data
 
-For loading the images data we need to use the **LoadData** object, from there we can import text data as python list object from the CSV/Text  file.
+For loading the Texts data we need to use the **LoadData** object, from there we can import text data as python list object from the CSV/Text  file.
 
 ```python
 # Load data from CSV file
@@ -94,6 +94,6 @@ The above copyright notice and this permission notice shall be included in all c
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 ```
-### Please do ⭐ the repository, if it helped you in anyway.
+### Please do STAR the repository, if it helped you in anyway.
 
 **More cool features will be added in future. Feel free to give suggestions, report bugs and contribute.**
