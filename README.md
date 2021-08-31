@@ -3,7 +3,7 @@
 
 **Deep Text Search** is an AI-powered multilingual **text search and recommendation engine** with state-of-the-art transformer-based **multilingual text embedding (50+ languages)**.
 
-![Generic badge](https://img.shields.io/badge/DeepTextSerach-v1-orange.svg) ![Generic badge](https://img.shields.io/badge/Artificial_Intelligence-Advance-green.svg) ![Generic badge](https://img.shields.io/badge/Python-v3-blue.svg) ![Generic badge](https://img.shields.io/badge/pip-v3-red.svg)  ![Generic badge](https://img.shields.io/badge/SentenceTransformer-v1-orange.svg) [![Downloads](https://static.pepy.tech/personalized-badge/deeptextsearch?period=total&units=international_system&left_color=grey&right_color=brightgreen&left_text=Downloads)](https://pepy.tech/project/deeptextsearch)
+![Generic badge](https://img.shields.io/badge/DeepTextSerach-v1-orange.svg) ![Generic badge](https://img.shields.io/badge/Artificial_Intelligence-Advance-green.svg) ![Generic badge](https://img.shields.io/badge/Python-v3-blue.svg) ![Generic badge](https://img.shields.io/badge/pip-v3-red.svg)  ![Generic badge](https://img.shields.io/badge/SentenceTransformer-v1-orange.svg) [![Downloads](https://static.pepy.tech/personalized-badge/deeptextsearch?period=total&units=none&left_color=black&right_color=green&left_text=Downloads)](https://pepy.tech/project/deeptextsearch)
 
 <h2><img src="https://cdn2.iconfinder.com/data/icons/artificial-intelligence-6/64/ArtificialIntelligence9-512.png" alt="Brain+Machine" height="38" width="38"> Creators </h2>
 
