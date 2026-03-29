@@ -1,0 +1,90 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "DeepTextSearch"
+version = "1.0.0"
+description = "AI-powered multilingual text search, recommendation, and reranking engine with hybrid search (semantic + keyword), FAISS indexing, cross-encoder reranking, and pluggable vector store backends."
+readme = "README.md"
+license = {text = "MIT"}
+authors = [{name = "Nilesh Verma", email = "me@nileshverma.com"}]
+requires-python = ">=3.9"
+keywords = [
+    "text search",
+    "semantic search",
+    "hybrid search",
+    "text recommendation",
+    "reranking",
+    "cross-encoder",
+    "FAISS",
+    "BM25",
+    "NLP",
+    "sentence-transformers",
+    "multilingual",
+    "RAG",
+    "retrieval augmented generation",
+    "MCP",
+    "agentic AI",
+    "vector database",
+    "ChromaDB",
+    "Qdrant",
+    "pgvector",
+    "MongoDB",
+    "LangChain",
+    "LlamaIndex",
+]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Topic :: Text Processing :: Indexing",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+]
+dependencies = [
+    "sentence-transformers>=3.0",
+    "faiss-cpu>=1.7.4",
+    "numpy>=1.24",
+    "rank-bm25>=0.2.2",
+    "pandas>=1.5",
+    "torch>=2.0",
+]
+
+[project.optional-dependencies]
+chroma = ["chromadb>=0.4"]
+qdrant = ["qdrant-client>=1.7"]
+postgres = ["psycopg2-binary>=2.9", "pgvector>=0.2"]
+mongo = ["pymongo>=4.6"]
+mcp = ["mcp>=1.0"]
+langchain = ["langchain-core>=0.2"]
+llamaindex = ["llama-index-core>=0.10"]
+gpu = ["faiss-gpu>=1.7.4"]
+all = [
+    "chromadb>=0.4",
+    "qdrant-client>=1.7",
+    "psycopg2-binary>=2.9",
+    "pgvector>=0.2",
+    "pymongo>=4.6",
+    "mcp>=1.0",
+    "langchain-core>=0.2",
+    "llama-index-core>=0.10",
+    "faiss-gpu>=1.7.4",
+]
+
+[project.scripts]
+deep-text-search-mcp = "DeepTextSearch.agents.mcp_server:main"
+
+[project.urls]
+Homepage = "https://github.com/TechyNilesh/DeepTextSearch"
+Repository = "https://github.com/TechyNilesh/DeepTextSearch"
+Issues = "https://github.com/TechyNilesh/DeepTextSearch/issues"
+
+[tool.setuptools.packages.find]
+include = ["DeepTextSearch*"]
