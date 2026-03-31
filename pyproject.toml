@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "DeepTextSearch"
-version = "1.0.0"
+version = "1.0.1"
 description = "AI-powered multilingual text search, recommendation, and reranking engine with hybrid search (semantic + keyword), FAISS indexing, cross-encoder reranking, and pluggable vector store backends."
 readme = "README.md"
 license = {text = "MIT"}

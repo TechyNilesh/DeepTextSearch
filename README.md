@@ -39,13 +39,13 @@
 
 Hybrid search (dense + BM25) consistently outperforms either method alone — **+17% Hit@1** over BM25 on SciFact:
 
-<p align="center"><img src="notebooks/charts/why_hybrid_search.png" alt="Why Hybrid Search" width="700"></p>
+<p align="center"><img src="https://raw.githubusercontent.com/TechyNilesh/DeepTextSearch/main/notebooks/charts/why_hybrid_search.png" alt="Why Hybrid Search" width="700"></p>
 
 ### Pick Your Reranker
 
 Choose the right speed/accuracy trade-off — from 17 MB edge models to high-accuracy production models:
 
-<p align="center"><img src="notebooks/charts/pick_your_reranker.png" alt="Pick Your Reranker" width="700"></p>
+<p align="center"><img src="https://raw.githubusercontent.com/TechyNilesh/DeepTextSearch/main/notebooks/charts/pick_your_reranker.png" alt="Pick Your Reranker" width="700"></p>
 
 *Benchmarked on [SciFact](https://huggingface.co/datasets/BeIR/scifact) (BEIR benchmark, 5183 docs, 100 queries) with `BAAI/bge-small-en-v1.5` embeddings on NVIDIA RTX A6000.*
 
